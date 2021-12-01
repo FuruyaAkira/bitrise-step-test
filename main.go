@@ -8,6 +8,7 @@ import (
 
 func main() {
 	fmt.Println("This is the value specified for the input 'example_step_input':", os.Getenv("example_step_input"))
+	fmt.Println("確認 :", os.Getenv("SECRET_SAMPLE"))
 
 	//
 	// --- Step Outputs: Export Environment Variables for other Steps:
